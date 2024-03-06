@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+.menu {
+  justify-content: center;
+  width: 100%;
+}
+.menu li.menu-link {
+  border: none;
+  padding: 0 15px;
+}
+.menu .logo img {
+  max-width: 160px;
+  margin: 0 30px;
+}
+.menu li.menu-link a {
+  letter-spacing: 10px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* 正文 */
+.title-wrapper {
+  padding: 1.5rem 0 2.5rem;
+  text-align: center;
+}
+.title-wrapper p {
+  /*color: #606060;*/
+  font-weight: bold;
+}
+.title-wrapper .title-strip {
+  display: inline-block;
+  width: 40%;
+  background-color: #212529;
+  height: 4px;
+  border: none;
+  opacity: 1;
+}
+.row-platform .card {
+  border: none;
+  color: #212529;
+  text-decoration: none;
+}
+.row-store .item > a {
+  color: #212529;
+  text-decoration: none;
+}
+.row-store .item .strip {
+  border: none;
+  background-color: #acacac;
+  height: 2px;
+  opacity: 1;
+  margin: 2rem 0;
+}
+
+@media (max-width:576px) {
+  .title-wrapper p {
+    font-size: 1.1rem;
+  }
+  .row-platform .title-2 {
+    font-size: 1rem;
+  }
+  .row-store .title-2 {
+    font-size: 1rem;
+  }
+  .row-store .cover {
+    max-width: 60px;
+  }
+  .row-store .image-wrapper {
+    text-align: center;
+  }
+  .row-store p {
+    text-align: center;
+  }
+
+}

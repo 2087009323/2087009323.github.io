@@ -1,0 +1,8 @@
+$('.js-model-menu').on('click',function(){
+    var isActive = $('.menu-mobel').hasClass('active');
+    if(!isActive){
+        $('.menu-mobel').addClass('active')
+    }else{
+        $('.menu-mobel').removeClass('active')
+    }
+})
